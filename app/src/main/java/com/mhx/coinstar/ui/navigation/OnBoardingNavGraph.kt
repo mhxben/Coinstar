@@ -42,7 +42,7 @@ fun OnBoardingNavGraph(navController: NavHostController) {
                 secondaryText = "Forget everything you know about the" +
                         "chaotic world of finance. It can be easy.",
                 onClick = {},
-                selectedIndex = 1,
+                selectedIndex = 2,
                 totalDots = 3
             )
         }

@@ -25,7 +25,7 @@ fun SplashScreen(navController: NavController ) {
 
     Column(Modifier.staticColumn(),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center )
+        verticalArrangement = Arrangement.SpaceBetween )
         {
         Image(
             painter = painterResource(id = R.drawable.block1),
