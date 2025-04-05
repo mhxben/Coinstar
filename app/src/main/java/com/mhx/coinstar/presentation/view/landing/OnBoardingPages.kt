@@ -1,9 +1,9 @@
-package com.mhx.coinstar.ui.view
+package com.mhx.coinstar.presentation.view.landing
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 import com.mhx.coinstar.R
-import com.mhx.coinstar.ui.view.component.OnBoarding
+import com.mhx.coinstar.presentation.view.landing.component.OnBoarding
 
 @Composable
 fun OnBoarding1(navController: NavController) {
@@ -40,7 +40,7 @@ fun OnBoarding3(navController: NavController) {
         primaryText = "Easy banking.",
         secondaryText = "Forget everything you know about the" +
                 "chaotic world of finance. It can be easy.",
-        onClick = {},
+        onClick = {navController.navigate("number")},
         selectedIndex = 2,
         totalDots = 3
     )

@@ -1,4 +1,4 @@
-package com.mhx.coinstar.ui.view.component
+package com.mhx.coinstar.presentation.view.landing.component
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image

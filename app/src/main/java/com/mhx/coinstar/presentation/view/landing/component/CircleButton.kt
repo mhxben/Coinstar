@@ -1,4 +1,4 @@
-package com.mhx.coinstar.ui.view.component
+package com.mhx.coinstar.presentation.view.landing.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
